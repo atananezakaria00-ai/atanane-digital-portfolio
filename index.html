@@ -1,0 +1,234 @@
+حلّ Repository باسم atanane-digital-portfolio.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ATANANE DIGITAL | Digital Agency</title>
+  <meta name="description" content="ATANANE DIGITAL helps businesses grow with websites, e-commerce and digital solutions.">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #0b1020;
+      color: white;
+      line-height: 1.6;
+    }
+
+    header {
+      padding: 22px 8%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid #263047;
+    }
+
+    .logo {
+      font-size: 23px;
+      font-weight: bold;
+      color: #63d6ff;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 20px;
+      font-size: 14px;
+    }
+
+    .hero {
+      padding: 110px 8%;
+      text-align: center;
+      background: linear-gradient(135deg, #101a35, #172b48);
+    }
+
+    .hero h1 {
+      font-size: clamp(38px, 6vw, 65px);
+      line-height: 1.15;
+      margin-bottom: 20px;
+    }
+
+    .hero h1 span {
+      color: #63d6ff;
+    }
+
+    .hero p {
+      color: #c1cadd;
+      max-width: 650px;
+      margin: 0 auto 30px;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 13px 25px;
+      border-radius: 7px;
+      background: #63d6ff;
+      color: #07101d;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    section {
+      padding: 75px 8%;
+    }
+
+    .section-title {
+      text-align: center;
+      font-size: 32px;
+      margin-bottom: 35px;
+    }
+
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+    }
+
+    .service {
+      background: #151e32;
+      padding: 27px;
+      border: 1px solid #263047;
+      border-radius: 12px;
+    }
+
+    .service h3 {
+      color: #63d6ff;
+      margin-bottom: 12px;
+    }
+
+    .service p, .about p {
+      color: #bdc7d9;
+    }
+
+    .about {
+      background: #10182a;
+      text-align: center;
+    }
+
+    .about p {
+      max-width: 700px;
+      margin: auto;
+    }
+
+    .contact {
+      text-align: center;
+    }
+
+    footer {
+      text-align: center;
+      padding: 25px;
+      background: #070b15;
+      color: #9caac0;
+      font-size: 13px;
+    }
+
+    @media (max-width: 600px) {
+      header {
+        flex-direction: column;
+        gap: 15px;
+      }
+
+      nav a {
+        margin: 0 7px;
+      }
+
+      .hero {
+        padding: 75px 6%;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <div class="logo">ATANANE DIGITAL</div>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#services">Services</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero" id="home">
+    <h1>Grow Your Business<br>With <span>Digital Solutions</span></h1>
+    <p>
+      We help businesses build their online presence
+      through modern websites, e-commerce and digital services.
+    </p>
+    <a class="btn" href="#contact">Let's Work Together</a>
+  </section>
+
+  <section id="services">
+    <h2 class="section-title">Our Services</h2>
+
+    <div class="services">
+
+      <div class="service">
+        <h3>Website Development</h3>
+        <p>Modern and responsive websites for your business.</p>
+      </div>
+
+      <div class="service">
+        <h3>E-commerce</h3>
+        <p>Online stores designed to help you sell products.</p>
+      </div>
+
+      <div class="service">
+        <h3>Digital Marketing</h3>
+        <p>Digital strategies to reach more potential customers.</p>
+      </div>
+
+      <div class="service">
+        <h3>SEO</h3>
+        <p>Improve your website visibility on search engines.</p>
+      </div>
+
+      <div class="service">
+        <h3>AI & Automation</h3>
+        <p>Smart digital workflows to save time and effort.</p>
+      </div>
+
+      <div class="service">
+        <h3>Social Media</h3>
+        <p>Build a stronger and more professional online presence.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <h2 class="section-title">About Us</h2>
+    <p>
+      ATANANE DIGITAL is a digital services brand based in Morocco.
+      Our mission is to help entrepreneurs and businesses worldwide
+      grow with practical and modern digital solutions.
+    </p>
+  </section>
+
+  <section class="contact" id="contact">
+    <h2 class="section-title">Let's Talk About Your Project</h2>
+    <p style="color:#bdc7d9; margin-bottom:25px;">
+      Ready to take your business to the next level?
+    </p>
+    <a class="btn"
+       href="https://www.linkedin.com/in/zakaria-atanane-466514390/"
+       target="_blank">
+       Contact Us on LinkedIn
+    </a>
+  </section>
+
+  <footer>
+    © 2026 ATANANE DIGITAL. All rights reserved.
+    <br>Built with passion in Morocco.
+  </footer>
+
+</body>
+</html>
